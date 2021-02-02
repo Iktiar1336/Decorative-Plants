@@ -61,16 +61,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item nav-url active">
                     <a class="nav-link" id="nav-home" href="#home">Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item nav-url">
                     <a class="nav-link" id="nav-service" href="#service">Service</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item nav-url">
                     <a class="nav-link" id="nav-catalog" href="#catalog">Catalog</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item nav-url">
                     <a class="nav-link" id="nav-contact" href="#contact">Contact Us</a>
                 </li>
                 @guest
@@ -245,8 +245,8 @@
         });
     </script>
     <script>
-$(".nav-item").on("click", function(e) {
-  $(".nav-item").removeClass("active");
+$(".nav-url").on("click", function(e) {
+  $(".nav-url").removeClass("active");
   $(this).addClass("active");
   e.preventDefault();
 });
