@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar-brand img{
+    width: 45px;
+	height: 100%;
+	margin-right: 10px;
+}
+
+.navbar .bg-white{
+    background-color: #fff;
+}
+
+.nav-link{
+    font-size: 19px;
+	margin-left: 20px;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+}
+
+.btn-green{
+    background-color: #83D987;
+    justify-content: center;
+	width:150px;
+	color: #000000;
+	font-size: 15px;
+	height:50;
+	font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.10);
+	border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align:center;
+}
+
+/* End Navbar */
+
+/* Banner */
+.jumbotron{
+	height: 650px;
+}
+
+.jumbotron .container{
+    margin-top: 70px;
+}
+
+.jumbotron b{
+    font-size: 58px;
+}
+
+.display-4 {
+    font-size: 58px;
+    color:#0ACC94 !important;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    font-size: 23px;
+    color: #3a3a3a !important;
+    margin: 20px 15px !important;
+}
+
+.jumbotron button {  
+    color: #FFFFFF !important;
+    font-size: 25px;
+    box-shadow:0px 4px 20px rgba(0, 0, 0, 0.25);
+    background-color:#F07144;
+    width: 260px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+/* End Banner */
+
+/* Service */
+.service {
+    background: #F5F6F8;
+    padding: 80px 100px!important;
+}
+
+/* left */
+.service #picture-square { 
+	overflow:hidden;
+	width:524px;
+	height:550px;
+	position:absolute;
+}
+
+.service #pict-cover { 
+	width:420px;
+	height:550px;
+	position:absolute;
+	left:50px;
+	top:0px;
+}
+
+.service #pict-border { 
+	overflow:hidden;
+	background-color: #C4C4C4;
+	width:420px;
+	height:550px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-radius: 25px;
+}
+
+.service #picture { 
+	width:492px;
+	height:737px;
+	position:absolute;
+	left:-33px;
+	top:-143px;
+	background-image:url('/image/daun.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.service #text-1 { 
+	width:316px;
+	height:100px;
+	position:absolute;
+	left:208px;
+    top:29px;
+}
+
+.service #text-1-cube { 
+	background-color: #FFFFFF;
+	width:316px;
+	height:100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service #montera { 
+	color:#132039;
+	width:128px;
+	height:30px;
+	position:absolute;
+	left:22px;
+	top:20px;
+	text-align:left;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.service #price { 
+	color:#0A9F82;
+	width:90px;
+	height:30px;
+	position:absolute;
+	left:204px;
+	top:35px;
+	text-align:right;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.service #location { 
+    color:#898889;
+	height:24px;
+	position:absolute;
+	left:22px;
+	top:50px;
+	text-align:left;
+	font-size:16px;
+}
+
+.service #text-2 { 
+	width:141px;
+	height:70px;
+	position:absolute;
+	left:0px;
+	top:440px;
+}
+
+.service #text-2-cube { 
+	background-color:#F5D35C;
+	width:141px;
+	height:70px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-radius: 6px;
+}
+
+.service #healthy { 
+	color:#132039;
+	width:118px;
+	height:27px;
+	position:absolute;
+	left:12px;
+	top:21px;
+	text-align:center;
+    font-size:18px;
+    font-weight:bold;
+}
+
+/* Right*/
+.service #service-tittle {
+    color: #0F1837;
+    font-size: 32px;
+}
+
+.service-text {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px 0px 0px;
+}
+
+.service #text-cube { 
+	overflow:hidden;
+	width:351px;
+    height:52px;
+    margin: 0px 0px 0px 20px;
+}
+
+.service #text { 
+	color:#0F1837;
+	width:281px;
+	height:52px;
+	font-size:16px;
+}
+
+.service #number-cube { 
+	background: #E7E5F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	width:50px;
+	height:50px;
+	border-radius: 4px;
+}
+
+.service #number { 
+	color:#5943A6;
+	height:33px;
+	text-align:center;
+	font-size:22px;
+}
+/* End Service */
+
+/* Catalog */
+
+#catalog-tittle { 
+	color:#000000;
+	text-align:center;
+    font-size:28px;
+    margin-top: 30px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+
+.col-sm-4 .card {
+    border: 0px !important;
+    outline: 0 !important;
+    cursor: pointer;
+}
+
+.col-sm-4 .card-img-top {
+    background: transparent;
+    border-radius: 25px;
+}
+
+.col-sm-4 .card #tittle { 
+    color: #000000;
+    text-align:left;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.col-sm-4 .card #price {
+    color: #000000;
+    text-align:left;
+    font-size:18px; 
+    margin: -10px 0px 0px 0px !important;
+}
+
+#footer { 
+	width: 100%;
+    height: 70px;
+    display: flex;
+	justify-content: center;
+	bottom: 0;
+	left: 0;
+    align-items: center;
+    background-color: #F5F6F8;
+}
+#footer #text { 
+	color: #8A8C97;
+	text-align: center;
+	font-size: 18px;
+}
