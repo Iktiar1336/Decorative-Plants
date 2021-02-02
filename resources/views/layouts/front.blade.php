@@ -5,6 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{secure_asset('/front/assets/icon/apple-touch-icon.png')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{secure_asset('/front/assets/icon/favicon-32x32.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{secure_asset('/front/assets/icon/favicon-16x16.png')}}">
+    <link rel="manifest" href="{{secure_asset('/front/assets/icon/site.webmanifest')}}">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v4.1.1">
     <title>@yield('title')</title>
@@ -49,7 +53,7 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
-        <a style="color:#0ACC94;font-weight: bold;" class="navbar-brand ml-3" href="/"><img src="{{asset('/front/assets/image/logo.png')}}"
+        <a style="color:#0ACC94;font-weight: bold;" class="navbar-brand ml-3" href="/"><img src="{{secure_asset('/front/assets/image/logo.png')}}"
                 alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -114,7 +118,7 @@
 
     <!-- Banner -->
     <div class="jumbotron"
-        style="margin-top: 65px;background: url({{asset('/front/assets/image/cactus-bg.png')}});background-size: cover;background-repeat: no-repeat;background-position: left;">
+        style="margin-top: 65px;background: url({{secure_asset('/front/assets/image/cactus-bg.png')}});background-size: cover;background-repeat: no-repeat;background-position: left;">
         <div class="container">
             <b> Welcome to </b>
             <h1 class="display-4">Decorative Plant</h1>
@@ -203,7 +207,7 @@
         window.jQuery || document.write('<script src="{{asset('
             front / assets / js / vendor / jquery.slim.min.js ')}}"><\/script>')
     </script>
-    <script src="{{asset('/front/assets/dist/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{secure_asset('/front/assets/dist/js/bootstrap.bundle.min.js')}}"></script>
     @yield('js')
     <script type="text/javascript">
         $("#button-service").click(function() {
@@ -271,5 +275,5 @@ $(".nav-item").on("click", function(e) {
         });
     }
     </script>
-    <script src="{{asset('js/jquery.js')}}"></script>
+    <script src="{{secure_asset('js/jquery.js')}}"></script>
 </html>

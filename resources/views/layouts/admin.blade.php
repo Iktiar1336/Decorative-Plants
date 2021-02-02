@@ -11,10 +11,10 @@
     @yield('title')
 
   <!-- UNTUK ME-LOAD ASSET DARI PUBLIC, KITA GUNAKAN HELPER ASSET() -->
-	<link href="{{ asset('assets/css/font-awesome.min.css') }}" rel="stylesheet">
-	<link href="{{ asset('assets/css/simple-line-icons.css') }}" rel="stylesheet">
-	<link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
-	<link href="{{ asset('assets/vendors/pace-progress/css/pace.min.css') }}" rel="stylesheet">
+	<link href="{{ secure_asset('assets/css/font-awesome.min.css') }}" rel="stylesheet">
+	<link href="{{ secure_asset('assets/css/simple-line-icons.css') }}" rel="stylesheet">
+	<link href="{{ secure_asset('assets/css/style.css') }}" rel="stylesheet">
+	<link href="{{ secure_asset('assets/vendors/pace-progress/css/pace.min.css') }}" rel="stylesheet">
 </head>
 <body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
   
@@ -46,13 +46,13 @@
         </div>
     </footer>
     
-    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
-    <script src="{{ asset('assets/js/popper.min.js') }}"></script>
-    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('assets/js/pace.min.js') }}"></script>
-    <script src="{{ asset('assets/js/perfect-scrollbar.min.js') }}"></script>
-    <script src="{{ asset('assets/js/coreui.min.js') }}"></script>
-    <script src="{{ asset('assets/js/custom-tooltips.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/jquery.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/popper.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/pace.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/perfect-scrollbar.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/coreui.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/custom-tooltips.min.js') }}"></script>
     @yield('js')
 </body>
 </html>

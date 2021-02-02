@@ -4,7 +4,7 @@
     </button>
     <a class="navbar-brand" href="#">
         <h5 style="color:#0ACC94 !important;font-weight: bold;">Decorative Plant</h5>
-        <img class="navbar-brand-minimized" src="{{ asset('assets/dw-01/img/brand/sygnet.svg') }}" width="30" height="30" alt="CoreUI Logo">
+        <img class="navbar-brand-minimized" src="{{ secure_asset('assets/dw-01/img/brand/sygnet.svg') }}" width="30" height="30" alt="CoreUI Logo">
     </a>
     <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
         <span class="navbar-toggler-icon"></span>

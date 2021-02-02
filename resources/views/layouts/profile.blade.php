@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{asset('/front/assets/icon/apple-touch-icon.png')}}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('/front/assets/icon/favicon-32x32.png')}}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('/front/assets/icon/favicon-16x16.png')}}">
-    <link rel="manifest" href="{{asset('/front/assets/icon/site.webmanifest')}}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{secure_asset('/front/assets/icon/apple-touch-icon.png')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{secure_asset('/front/assets/icon/favicon-32x32.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{secure_asset('/front/assets/icon/favicon-16x16.png')}}">
+    <link rel="manifest" href="{{secure_asset('/front/assets/icon/site.webmanifest')}}">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <title>@yield('title')</title>
@@ -15,13 +15,13 @@
     <!-- CSS -->
 
     <!-- Bootstrap core CSS -->
-    <link href="{{asset('/front/assets/dist/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('/assets/vendors/mdi/css/materialdesignicons.min.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('/front/assets/dist/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('/assets/vendors/mdi/css/materialdesignicons.min.css')}}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('ecommerce/css/bootstrap.css') }}">
-    <link rel="stylesheet" href="{{ asset('ecommerce/vendors/linericon/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('ecommerce/css/font-awesome.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('ecommerce/css/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('ecommerce/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('ecommerce/vendors/linericon/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('ecommerce/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('ecommerce/css/style.css') }}">
     @yield('css')
     <style>
         body {
@@ -163,10 +163,10 @@
         window.jQuery || document.write('<script src="{{asset('
             front / assets / js / vendor / jquery.slim.min.js ')}}"><\/script>')
     </script>
-    <script src="{{asset('/front/assets/dist/js/bootstrap.bundle.min.js')}}"></script>
-    <script src="{{ asset('ecommerce/js/jquery-3.2.1.min.js') }}"></script>
-    <script src="{{ asset('ecommerce/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('ecommerce/vendors/counter-up/jquery.waypoints.min.js') }}"></script>
+    <script src="{{secure_asset('/front/assets/dist/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{ secure_asset('ecommerce/js/jquery-3.2.1.min.js') }}"></script>
+    <script src="{{ secure_asset('ecommerce/js/bootstrap.min.js') }}"></script>
+    <script src="{{ secure_asset('ecommerce/vendors/counter-up/jquery.waypoints.min.js') }}"></script>
     <script>
         $(function () {
 
@@ -183,7 +183,7 @@
             })
         })
     </script>
-    <script src="{{ asset('ecommerce/vendors/counter-up/jquery.counterup.js') }}"></script>
+    <script src="{{ secure_asset('ecommerce/vendors/counter-up/jquery.counterup.js') }}"></script>
     <script src="https://kit.fontawesome.com/715497a4a3.js" crossorigin="anonymous"></script>
 </body>
 
