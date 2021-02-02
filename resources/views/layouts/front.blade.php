@@ -104,7 +104,7 @@
                 </li>
                 @endguest
                 <li class="nav-item">
-                    <a class="nav-link btn" id="nav-contact" href="{{route('front.list_cart')}}" style="color: #83D987;font-size:25px;margin-top: -5px">
+                    <a class="nav-link" id="nav-contact" href="{{route('front.list_cart')}}" style="color: #83D987;font-size:25px;margin-top: -5px">
                         <img src="{{asset('/image/shopping-cart.png')}}" style="width: 20; height: 30px" alt="">
                         <span class="basket-item-count">
                             <sup><span class="badge badge-pill red"></span></sup>
