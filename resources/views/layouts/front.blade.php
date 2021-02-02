@@ -76,7 +76,7 @@
                 @guest
                 @if (Route::has('login'))
                 <li class="nav-item">
-                    <a class="nav-link btn btn-green" href="{{ secure_route('login') }}">{{ __('Sign in') }}</a>
+                    <a class="nav-link btn btn-green" href="{{ route('login') }}">{{ __('Sign in') }}</a>
                 </li>
                 @endif
                 @else
