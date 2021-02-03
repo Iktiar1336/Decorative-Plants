@@ -34,6 +34,7 @@ Instagram   :   @dewaprogramming -- @741_dewa -- @dewasmkn1jakarta
     
     nav {
         display: flex;
+        width: 100%;
         background: #FFFFFF !important;
     }
 
@@ -99,7 +100,7 @@ Instagram   :   @dewaprogramming -- @741_dewa -- @dewasmkn1jakarta
     .service #pict-cover { 
         margin: auto !important;
         width:80%;
-        height:550px;
+        height:450px;
         position: unset;
     }
 
@@ -107,7 +108,7 @@ Instagram   :   @dewaprogramming -- @741_dewa -- @dewasmkn1jakarta
         overflow:hidden;
         background-color: #C4C4C4;
         width:80%;
-        height:550px;
+        height:450px;
         position:absolute;
         left:0px;
         top:0px;
