@@ -30,6 +30,7 @@
     <style>
         body{
             font-family: 'Poppins', sans-serif;
+            overflow-x: hidden
         }
         .bd-placeholder-img {
             font-size: 1.125rem;
