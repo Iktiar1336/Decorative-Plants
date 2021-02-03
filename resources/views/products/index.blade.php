@@ -65,7 +65,7 @@
                                         <tr>
                                             <td>
                                                 <!-- TAMPILKAN GAMBAR DARI FOLDER PUBLIC/STORAGE/PRODUCTS -->
-                                                <img src="{{ secure_asset('/image/' . $row->image) }}" width="100px" height="100px" alt="{{ $row->name }}">
+                                                <img src="{{ secure_asset('/iamge/' . $row->image) }}" width="100px" height="100px" alt="{{ $row->name }}">
                                             </td>
                                             <td>
                                                 <strong>{{ $row->name }}</strong><br>

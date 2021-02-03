@@ -266,25 +266,25 @@ html,body{
     margin-bottom: 100px;
 }
 
-.col-sm-4 .card {
+.col-sm-3 .card {
     border: 0px !important;
     outline: 0 !important;
     cursor: pointer;
 }
 
-.col-sm-4 .card-img-top {
+.col-sm-3 .card-img-top {
     background: transparent;
     border-radius: 25px;
 }
 
-.col-sm-4 .card #tittle { 
+.col-sm-3 .card #tittle { 
     color: #000000;
     text-align:left;
     font-size:18px;
     font-weight: bold;
 }
 
-.col-sm-4 .card #price {
+.col-sm-3 .card #price {
     color: #000000;
     text-align:left;
     font-size:18px; 
