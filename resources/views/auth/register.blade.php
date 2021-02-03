@@ -7,9 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{secure_asset('/front/assets/icon/apple-touch-icon.png')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{secure_asset('/front/assets/icon/favicon-32x32.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{secure_asset('/front/assets/icon/favicon-16x16.png')}}">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Register</title>
+    <title>Decorative Plant | Register</title>
 
     <!-- Custom fonts for this template-->
     <link href="{{secure_asset('sbadmin/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
@@ -158,6 +161,7 @@
 
     <!-- Custom scripts for all pages-->
     <script src="{{secure_asset('sbadmin/js/sb-admin-2.min.js')}}"></script>
+    <script src="https://kit.fontawesome.com/715497a4a3.js" crossorigin="anonymous"></script>
 
 </body>
 

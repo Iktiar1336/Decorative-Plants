@@ -31,6 +31,10 @@ Instagram   :   @dewaprogramming -- @741_dewa -- @dewasmkn1jakarta
     /*-------------------------------------------------------------------
     [1. Nav]
     *------------------------------------------------------------------*/
+    body{
+        overflow-y: hidden;
+    }
+    
     nav {
         display: flex;
         background: #FFFFFF !important;
