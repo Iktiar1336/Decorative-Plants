@@ -36,8 +36,7 @@ Instagram   :   @dewaprogramming -- @741_dewa -- @dewasmkn1jakarta
     }
 
     nav {
-        display: flex;
-        width: 100%;
+        width: 100% !important;
         background: #FFFFFF !important;
     }
 
@@ -53,7 +52,7 @@ Instagram   :   @dewaprogramming -- @741_dewa -- @dewasmkn1jakarta
     }  
     
     .jumbotron{
-        width: 100%;
+        width: 100% !important;
         height: 540px;
     }
 
