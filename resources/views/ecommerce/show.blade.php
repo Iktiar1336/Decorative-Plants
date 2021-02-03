@@ -74,16 +74,16 @@
                         <button
                             onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
                             class="increase items-count" type="button">
-                            <i class="mdi mdi-chevron-up"></i>
+                            <i class="fa fa-chevron-up"></i>
                         </button>
                         <button
                             onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
                             class="reduced items-count" type="button">
-                            <i class="mdi mdi-chevron-down"></i>
+                            <i class="fa fa-chevron-down"></i>
                         </button>
                     </div>
                     <div class="card_area">
-                        <button class="btn btn-cart"> <i class="mdi mdi-cart-plus"></i> Add to Cart</button>
+                        <button class="btn btn-cart"> <i class="fa fa-cart-plus"></i> Add to Cart</button>
                     </div>
 
                     @if (session('success'))
@@ -118,7 +118,7 @@
         swal("Success!", "Product was successfully added to cart!",);
     </script>
     @endif
-
+    <script src="https://kit.fontawesome.com/715497a4a3.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
