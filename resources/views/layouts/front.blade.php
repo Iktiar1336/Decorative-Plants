@@ -55,7 +55,7 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
-        <a style="color:#0ACC94;font-weight: bold;" class="navbar-brand ml-3" href="/"><img src="{{secure_asset('/front/assets/image/logo.png')}}"
+        <a style="color:#0ACC94;font-weight: bold;" class="navbar-brand ml-1" href="/"><img src="{{secure_asset('/front/assets/image/logo.png')}}"
                 alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
