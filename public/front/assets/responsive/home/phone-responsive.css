@@ -49,7 +49,7 @@ Instagram   :   @dewaprogramming -- @741_dewa -- @dewasmkn1jakarta
   
     
     .jumbotron{
-        height: 570px;
+        height: 590px;
     }
 
     .jumbotron b {
@@ -150,6 +150,10 @@ Instagram   :   @dewaprogramming -- @741_dewa -- @dewasmkn1jakarta
     .catalog #price {
         font-size: 13px !important;
         text-align: center !important;
+    }
+
+    .catalog #title{
+        font-size: 15px !important;
     }
 
     /*-------------------------------------------------------------------
