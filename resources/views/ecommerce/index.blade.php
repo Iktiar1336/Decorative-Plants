@@ -27,7 +27,7 @@ Decorative Plant ! Home
 @section('content')
 <div class="row container m-auto">
     @foreach ($products as $item)
-    <div class="col-sm-4 m-auto">
+    <div class="col-sm-3 m-auto">
         <div class="card">
             <a href="{{ url('/product/' . $item->slug) }}"><img class="card-img-top" src="{{ secure_asset('/image/' . $item->image) }}" alt="Green Florest"></a>
             <div class="card-body">

@@ -52,7 +52,7 @@
     <!-- Page -->
     <div class="page">
         <div class="col-sm-6">
-            <img src="{{ secure_asset('storage/products/' . $product->image) }}">
+            <img src="{{ secure_asset('/image/' . $product->image) }}">
         </div>
         <div class="col-sm-6">
             <div id="description">

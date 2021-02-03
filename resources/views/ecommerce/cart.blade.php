@@ -15,15 +15,15 @@
     <!-- CSS -->
 
     <!-- Bootstrap core CSS -->
-    <link href="{{asset('/front/assets/dist/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('/assets/vendors/mdi/css/materialdesignicons.min.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('/front/assets/dist/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('/assets/vendors/mdi/css/materialdesignicons.min.css')}}" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('ecommerce/css/bootstrap.css') }}">
-    <link rel="stylesheet" href="{{ asset('ecommerce/vendors/linericon/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('ecommerce/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('ecommerce/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('ecommerce/vendors/linericon/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('ecommerce/css/font-awesome.min.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('ecommerce/css/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('ecommerce/css/style.css') }}">
     <style>
         #breadcrumb {
             background: #FFFFFF !important;
@@ -108,7 +108,7 @@
                                 <td>
                                   <div class="media">
                                     <div class="d-flex">
-                                                            <img src="{{ secure_asset('storage/products/' . $row['product_image']) }}" width="100px" height="100px" alt="{{ $row['product_name'] }}">
+                                                            <img src="{{ secure_asset('/image/' . $row['product_image']) }}" width="100px" height="100px" alt="{{ $row['product_name'] }}">
                                     </div>
                                     <div class="media-body">
                                                             <p>{{ $row['product_name'] }}</p>
@@ -241,11 +241,11 @@
         window.jQuery || document.write('<script src="{{asset('
             front / assets / js / vendor / jquery.slim.min.js ')}}"><\/script>')
     </script>
-    <script src="{{asset('/front/assets/dist/js/bootstrap.bundle.min.js')}}"></script>
-    <script src="{{ asset('ecommerce/js/jquery-3.2.1.min.js') }}"></script>
-    <script src="{{ asset('ecommerce/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('ecommerce/vendors/counter-up/jquery.waypoints.min.js') }}"></script>
-    <script src="{{ asset('ecommerce/vendors/counter-up/jquery.counterup.js') }}"></script>
+    <script src="{{ secure_asset('/front/assets/dist/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{ secure_asset('ecommerce/js/jquery-3.2.1.min.js') }}"></script>
+    <script src="{{ secure_asset('ecommerce/js/bootstrap.min.js') }}"></script>
+    <script src="{{ secure_asset('ecommerce/vendors/counter-up/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ secure_asset('ecommerce/vendors/counter-up/jquery.counterup.js') }}"></script>
 </body>
 
 </html>
