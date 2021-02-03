@@ -42,7 +42,7 @@ class ProductController extends Controller
         if ($request->hasFile('image')) {           
             $file = $request->file('image');
             $filename = Str::slug($request->name) . '.' . $file->getClientOriginalExtension();
-            $file->storeAs('public/products', $filename);
+            $file->storeAs('public/image', $filename);
             $product = Product::create([
                 'name' => $request->name,
                 'ilmiah' => $request->ilmiah,
