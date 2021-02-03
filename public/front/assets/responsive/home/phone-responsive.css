@@ -49,7 +49,7 @@ Instagram   :   @dewaprogramming -- @741_dewa -- @dewasmkn1jakarta
   
     
     .jumbotron{
-        height: 540px;
+        height: 570px;
     }
 
     .jumbotron b {
@@ -95,7 +95,7 @@ Instagram   :   @dewaprogramming -- @741_dewa -- @dewasmkn1jakarta
     .service #pict-border { 
         overflow:hidden;
         background-color: #C4C4C4;
-        width:80%;
+        width:100%;
         height:450px;
         position:absolute;
         left:0px;
@@ -104,10 +104,10 @@ Instagram   :   @dewaprogramming -- @741_dewa -- @dewasmkn1jakarta
     }
 
     .service #text-1{ 
-        width:100%;
+        width:90%;
         height:100px;
         position:absolute;
-        left:0px;
+        left:10px;
         top:29px;
     }
 
