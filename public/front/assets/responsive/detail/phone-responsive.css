@@ -60,7 +60,11 @@ Instagram   :   @dewaprogramming -- @741_dewa -- @dewasmkn1jakarta
         max-width: 100% !important;
     }
 
-    #tittle-detail { 
+    .page #description{
+        margin-left: 50px !important;
+    }
+
+    .page #tittle-detail { 
         text-align: center;
         font-size: 38px;
     }
