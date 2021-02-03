@@ -33,10 +33,10 @@ Instagram   :   @dewaprogramming -- @741_dewa -- @dewasmkn1jakarta
     *------------------------------------------------------------------*/
     body{
         overflow-x: hidden !important;
+        width: 100%;
     }
 
     nav {
-        width: 576px !important;
         background: #FFFFFF !important;
     }
 
@@ -46,13 +46,9 @@ Instagram   :   @dewaprogramming -- @741_dewa -- @dewasmkn1jakarta
     .home {
         background-position: right -600px top;
     }
-
-    .home .col-sm-12 {
-        padding: 56% 30px !important;
-    }  
+  
     
     .jumbotron{
-        width: 576px !important;
         height: 540px;
     }
 
@@ -81,7 +77,6 @@ Instagram   :   @dewaprogramming -- @741_dewa -- @dewasmkn1jakarta
     .service {
         background: #F5F6F8;
         padding: 80px 30px !important;
-        width: 576px !important;
     }
 
     /* left */
