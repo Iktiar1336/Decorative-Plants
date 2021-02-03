@@ -13,21 +13,21 @@
     <title>Decorative Plant</title>
 
     <!-- CSS -->
-    <link href="{{asset('/front/assets/css/detail.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('/front/assets/css/detail.css')}}" rel="stylesheet">
     <!-- Bootstrap core CSS -->
-    <link href="{{asset('/front/assets/dist/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('/front/assets/dist/css/style.css')}}" rel="stylesheet">
-    <link href="{{asset('/front/assets/responsive/detail/phone-responsive.css')}}" rel="stylesheet">
-    <link href="{{asset('/front/assets/responsive/detail/tablet-responsive.css')}}" rel="stylesheet">
-    <link href="{{asset('/front/assets/responsive/detail/desktop-responsive.css')}}" rel="stylesheet">
-    <link href="{{asset('/assets/vendors/mdi/css/materialdesignicons.min.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('/front/assets/dist/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('/front/assets/dist/css/style.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('/front/assets/responsive/detail/phone-responsive.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('/front/assets/responsive/detail/tablet-responsive.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('/front/assets/responsive/detail/desktop-responsive.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('/assets/vendors/mdi/css/materialdesignicons.min.css')}}" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('ecommerce/css/bootstrap.css') }}">
-    <link rel="stylesheet" href="{{ asset('ecommerce/vendors/linericon/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('ecommerce/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('ecommerce/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('ecommerce/vendors/linericon/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('ecommerce/css/font-awesome.min.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('ecommerce/css/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('ecommerce/css/style.css') }}">
 
 </head>
 
@@ -35,7 +35,7 @@
     <!-- Nav -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <a style="color:#0ACC94;font-weight: bold;" class="navbar-brand m-auto" href="/"><img
-                src="{{asset('/front/assets/image/logo.png')}}" alt="">Decorative Plant</a>
+                src="{{secure_asset('/front/assets/image/logo.png')}}" alt="">Decorative Plant</a>
         <ul class="navbar-nav">
             <li class="nav-item">
                 <a class="nav-link btn" id="nav-contact" href="{{route('front.list_cart')}}" style="color: #83D987;font-size:25px;margin-top: -5px">
@@ -52,7 +52,7 @@
     <!-- Page -->
     <div class="page">
         <div class="col-sm-6">
-            <img src="{{ asset('storage/products/' . $product->image) }}">
+            <img src="{{ secure_asset('storage/products/' . $product->image) }}">
         </div>
         <div class="col-sm-6">
             <div id="description">
@@ -107,12 +107,12 @@
         window.jQuery || document.write('<script src="{{asset('
             front / assets / js / vendor / jquery.slim.min.js ')}}"><\/script>')
     </script>
-    <script src="{{asset('/front/assets/dist/js/bootstrap.bundle.min.js')}}"></script>
-    <script src="{{ asset('ecommerce/js/jquery-3.2.1.min.js') }}"></script>
-    <script src="{{ asset('ecommerce/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('ecommerce/vendors/counter-up/jquery.waypoints.min.js') }}"></script>
-    <script src="{{ asset('ecommerce/vendors/counter-up/jquery.counterup.js') }}"></script>
-    <script src="{{ asset('/js/sweetalert.min.js') }}"></script>
+    <script src="{{ secure_asset('/front/assets/dist/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{ secure_asset('ecommerce/js/jquery-3.2.1.min.js') }}"></script>
+    <script src="{{ secure_asset('ecommerce/js/bootstrap.min.js') }}"></script>
+    <script src="{{ secure_asset('ecommerce/vendors/counter-up/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ secure_asset('ecommerce/vendors/counter-up/jquery.counterup.js') }}"></script>
+    <script src="{{ secure_asset('/js/sweetalert.min.js') }}"></script>
     @if (session('sukses'))
     <script>
         swal("Success!", "Product was successfully added to cart!",);

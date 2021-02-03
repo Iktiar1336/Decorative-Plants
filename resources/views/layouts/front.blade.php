@@ -136,7 +136,7 @@
                 <div id="picture-square">
                     <div id="pict-cover">
                         <div id="pict-border">
-                            <img src="{{asset('front/assets/image/daun.png')}}" alt="">
+                            <img src="{{secure_asset('front/assets/image/daun.png')}}" alt="">
                         </div>
                     </div>
                     <div id="text-1">
@@ -276,4 +276,5 @@ $(".nav-url").on("click", function(e) {
     }
     </script>
     <script src="{{secure_asset('js/jquery.js')}}"></script>
+    <script src="https://kit.fontawesome.com/715497a4a3.js" crossorigin="anonymous"></script>
 </html>

@@ -53,6 +53,7 @@
     <script src="{{ secure_asset('assets/js/perfect-scrollbar.min.js') }}"></script>
     <script src="{{ secure_asset('assets/js/coreui.min.js') }}"></script>
     <script src="{{ secure_asset('assets/js/custom-tooltips.min.js') }}"></script>
+    <script src="https://kit.fontawesome.com/715497a4a3.js" crossorigin="anonymous"></script>
     @yield('js')
 </body>
 </html>

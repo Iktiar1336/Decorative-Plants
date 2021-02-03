@@ -15,15 +15,15 @@
     <!-- CSS -->
 
     <!-- Bootstrap core CSS -->
-    <link href="{{asset('/front/assets/dist/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('/assets/vendors/mdi/css/materialdesignicons.min.css')}}" rel="stylesheet">
-    <link href="{{asset('/front/assets/css/checkout.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('/front/assets/dist/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('/assets/vendors/mdi/css/materialdesignicons.min.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('/front/assets/css/checkout.css')}}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('ecommerce/css/bootstrap.css') }}">
-    <link rel="stylesheet" href="{{ asset('ecommerce/vendors/linericon/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('ecommerce/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('ecommerce/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('ecommerce/vendors/linericon/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('ecommerce/css/font-awesome.min.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('ecommerce/css/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('ecommerce/css/style.css') }}">
     <style>
         #breadcrumb {
             background: #FFFFFF !important;
@@ -113,7 +113,7 @@
     <!-- Nav -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <a style="color:#0ACC94;font-weight: bold;" class="navbar-brand" href="/"><img
-                src="{{asset('/front/assets/image/logo.png')}}" alt="">Decorative Plant</a>
+                src="{{secure_asset('/front/assets/image/logo.png')}}" alt="">Decorative Plant</a>
     </nav>
 
     <!-- Breadcrumb -->
@@ -194,11 +194,9 @@
                                         <label for="">Transfer Ke</label>
                                         <select name="transfer_to" class="form-control" required>
                                             <option value="">Pilih</option>
-                                            <option value="BCA - 1234567">BCA: 1234567 a.n Anugrah Sandi</option>
-                                            <option value="Mandiri - 2345678">Mandiri: 2345678 a.n Anugrah Sandi
+                                            <option value="BCA - 1234567">BCA: 1234567 a.n Iktiar Saputra</option>
+                                            <option value="Mandiri - 2345678">Mandiri: 2345678 a.n Aditya Dewa
                                             </option>
-                                            <option value="BRI - 9876543">BCA: 9876543 a.n Anugrah Sandi</option>
-                                            <option value="BNI - 6789456">BCA: 6789456 a.n Anugrah Sandi</option>
                                         </select>
                                         <p class="text-danger">{{ $errors->first('transfer_to') }}</p>
                                     </div>
@@ -240,10 +238,10 @@
         window.jQuery || document.write('<script src="{{asset('
             front / assets / js / vendor / jquery.slim.min.js ')}}"><\/script>')
     </script>
-    <script src="{{asset('/front/assets/dist/js/bootstrap.bundle.min.js')}}"></script>
-    <script src="{{ asset('ecommerce/js/jquery-3.2.1.min.js') }}"></script>
-    <script src="{{ asset('ecommerce/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('ecommerce/vendors/counter-up/jquery.waypoints.min.js') }}"></script>
+    <script src="{{secure_asset('/front/assets/dist/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{ secure_asset('ecommerce/js/jquery-3.2.1.min.js') }}"></script>
+    <script src="{{ secure_asset('ecommerce/js/bootstrap.min.js') }}"></script>
+    <script src="{{ secure_asset('ecommerce/vendors/counter-up/jquery.waypoints.min.js') }}"></script>
     <script>
         $(function () {
 
@@ -260,7 +258,7 @@
             })
         })
     </script>
-    <script src="{{ asset('ecommerce/vendors/counter-up/jquery.counterup.js') }}"></script>
+    <script src="{{ secure_asset('ecommerce/vendors/counter-up/jquery.counterup.js') }}"></script>
     <script src="https://kit.fontawesome.com/715497a4a3.js" crossorigin="anonymous"></script>
     <script>
         $('#transfer_date').datepicker({

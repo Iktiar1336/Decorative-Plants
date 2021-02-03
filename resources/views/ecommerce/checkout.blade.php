@@ -78,7 +78,7 @@
     <!-- Nav -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <a style="color:#0ACC94;font-weight: bold;" class="navbar-brand ml-3" href="/"><img
-                src="{{asset('/front/assets/image/logo.png')}}" alt="">Decorative Plant</a>
+                src="{{secure_asset('/front/assets/image/logo.png')}}" alt="">Decorative Plant</a>
     </nav>
 
     <!-- Breadcrumb -->
