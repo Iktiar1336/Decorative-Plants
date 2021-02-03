@@ -34,13 +34,14 @@
 <body>
     <!-- Nav -->
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a style="color:#0ACC94;font-weight: bold;" class="navbar-brand m-auto" href="/"><img
+        <a style="color:#0ACC94;font-weight: bold;" class="navbar-brand m-auto" href="/"><img class="img"
                 src="{{secure_asset('/front/assets/image/logo.png')}}" alt="">Decorative Plant</a>
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link btn" id="nav-contact" href="{{route('front.list_cart')}}" style="color: #83D987;font-size:25px;margin-top: -5px">
-                    <i class="fa fa-shopping-cart"></i>
-                </a>
+                <img src="{{asset('/image/shopping-cart.png')}}" style="width: 20; height: 30px" alt="">
+                <span class="basket-item-count">
+                    <sup><span class="badge badge-pill red"></span></sup>
+                </span>
             </li>
         </ul>
     </nav>
