@@ -29,7 +29,7 @@ Decorative Plant ! Home
     @foreach ($products as $item)
     <div class="col-sm-4 m-auto">
         <div class="card">
-            <a href="{{ url('/product/' . $item->slug) }}"><img class="card-img-top" src="{{ secure_asset('/products/' . $item->image) }}" alt="Green Florest"></a>
+            <a href="{{ url('/product/' . $item->slug) }}"><img class="card-img-top" src="{{ secure_asset('storage/products/' . $item->image) }}" alt="Green Florest"></a>
             <div class="card-body">
                 <p id="tittle">{{$item->name}}</p>
                 <p id="price">IDR {{ number_format($item->price) }}</p>
