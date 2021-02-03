@@ -83,7 +83,7 @@
                         </button>
                     </div>
                     <div class="card_area">
-                        <button class=" btn"> <i class="mdi mdi-cart-plus"></i> Add to Cart</button>
+                        <button class="btn btn-cart"> <i class="mdi mdi-cart-plus"></i> Add to Cart</button>
                     </div>
 
                     @if (session('success'))
