@@ -2,7 +2,7 @@
     <ul class="nav">
         <li class="nav-item">
             <a class="nav-link" href="#">
-                <i class="nav-icon icon-speedometer"></i> Dashboard
+                <i class="nav-icon fa fa-tachometer-alt"></i> Dashboard
             </a>
         </li>
 
@@ -26,7 +26,7 @@
             <ul class="nav-dropdown-items">
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <i class="nav-icon icon-puzzle"></i> Toko
+                        <i class="nav-icon fa fa-cog"></i> Toko
                     </a>
                 </li>
             </ul>

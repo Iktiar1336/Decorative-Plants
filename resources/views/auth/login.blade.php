@@ -138,6 +138,7 @@
   <script src="{{secure_asset('sbadmin/vendor/jquery-easing/jquery.easing.min.js')}}"></script>
 
   <!-- Custom scripts for all pages-->
+  <script src="https://kit.fontawesome.com/715497a4a3.js" crossorigin="anonymous"></script>
   <script src="{{secure_asset('sbadmin/js/sb-admin-2.min.js')}}"></script>
 
 </body>
