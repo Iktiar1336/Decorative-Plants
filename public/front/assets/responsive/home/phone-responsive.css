@@ -31,9 +31,6 @@ Instagram   :   @dewaprogramming -- @741_dewa -- @dewasmkn1jakarta
     /*-------------------------------------------------------------------
     [1. Nav]
     *------------------------------------------------------------------*/
-    body{
-        overflow-x: hidden;
-    }
     
     nav {
         display: flex;
@@ -52,6 +49,7 @@ Instagram   :   @dewaprogramming -- @741_dewa -- @dewasmkn1jakarta
     }  
     
     .jumbotron{
+        width: 100%;
         height: 500px;
     }
 
@@ -110,7 +108,7 @@ Instagram   :   @dewaprogramming -- @741_dewa -- @dewasmkn1jakarta
     .service #pict-border { 
         overflow:hidden;
         background-color: #C4C4C4;
-        width:420px;
+        width:100%;
         height:550px;
         position:absolute;
         left:0px;
