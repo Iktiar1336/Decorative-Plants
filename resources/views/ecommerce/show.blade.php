@@ -50,7 +50,7 @@
         <h5><a class="active" href="/"> Home </a>/ Details </h5>
     </div>
     <!-- Page -->
-    <div class="page">
+    <div class="page container">
         <div class="col-sm-6">
             <img src="{{ secure_asset('/image/' . $product->image) }}">
         </div>
